@@ -1,0 +1,8 @@
+n, k = map(int, input().split())
+years = 0
+
+while n <= k:
+    n = n * 3      
+    k = k * 2     
+    years += 1     
+print(years)
